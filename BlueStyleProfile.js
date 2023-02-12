@@ -9,6 +9,7 @@ $(document).ready(function() {
 });
 
 enableTheme = () => {
+    console.log('enable theme log');
     $('body').addClass('ff');
     $('form').addClass('ff');
     $('.runtime-content').addClass('ff');
